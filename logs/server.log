@@ -1,0 +1,21 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [153] using StatReload
+INFO:     Started server process [155]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:60042 - "GET /clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58622 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:60042 - "GET /clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58656 - "GET /clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58656 - "GET /clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58612 - "OPTIONS /clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58612 - "POST /clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58612 - "GET /clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58612 - "GET /clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58612 - "GET /clients/691dd540a7958bc59b2800eb HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46900 - "OPTIONS /websites HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46900 - "POST /websites HTTP/1.1" 422 Unprocessable Content
+INFO:     172.20.0.1:46900 - "GET /clients/691dd540a7958bc59b2800eb HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53820 - "OPTIONS /gmb HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53820 - "POST /gmb HTTP/1.1" 200 OK
